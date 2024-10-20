@@ -1,0 +1,78 @@
+.admin-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .values-cont{
+        width: 50%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        .title-inp{
+            width: 100%;
+            height: 30px;
+            box-shadow: 3px 3px 10px 5px rgba($color: #000000, $alpha: 0.3);
+            border: none;
+            border-radius: 5px;
+        }
+        .descr{
+            width: 100%;
+            height: 60px;
+            resize: none;
+            border-radius: 5px;
+        }
+        .cont-price-amount{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            
+        }
+        .small-inp{
+            flex-grow: 1;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+        }
+        .id-inp{
+            width: 100%;
+            height: 30px;
+            border: none;
+            box-shadow: 3px 3px 10px 5px rgba($color: #000000, $alpha: 0.3);
+            border-radius: 5px;
+        }
+        .img-inp{
+            width: 100%;
+            height: 30px;
+            border: none;
+            box-shadow: 3px 3px 10px 5px rgba($color: #000000, $alpha: 0.3);
+            border-radius: 5px;
+        }
+        .submit-button{
+            width: 100%;
+            height: 30px;
+            border: none;
+            background-color: #32de84;
+            box-shadow: 3px 3px 10px 5px rgba($color: #000000, $alpha: 0.3);
+            border-radius: 10px;
+        }
+        .wrong{
+            color: red;
+        }
+    }
+}
+input:focus{
+    outline: none;
+}
+.hidden{
+    display: none;
+}
+textarea:focus{
+    outline: none;
+}

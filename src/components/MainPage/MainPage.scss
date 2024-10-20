@@ -1,0 +1,72 @@
+.main-cont{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-size: 20px;
+}
+.items-cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.cont-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+}
+.account-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.register-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 70px;
+    background-color: #03C03C;
+    text-decoration: none;
+    margin: 0;
+    font-size: 13px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    margin: 0;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 50px;
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2),-3px -3px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+.user-name{
+    margin: 0;
+    font-size: 18px;
+    height: 100%;
+}
+.hidden{
+    display: none;
+}

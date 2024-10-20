@@ -1,0 +1,39 @@
+.main-login{
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    .central-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        height: 100%;
+    }
+    .login-title{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .input-standart{
+        width: 100%;
+        border-radius: 10px;
+        height: 30px;
+        font-size: 14px;
+        border:none;
+        width: 300px;
+        padding: 0 5px;
+        box-shadow: 3px 3px 5px 0px rgba($color: #000000, $alpha: 0.2),-3px -3px 5px 0px rgba($color: #000000, $alpha: 0.2);
+    }
+    .login{
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #03C03C;
+    }
+    .message-text{
+        font-size: 14px;
+    }
+}
